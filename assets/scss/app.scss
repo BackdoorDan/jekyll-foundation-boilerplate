@@ -4,19 +4,6 @@
 // This is our main SCSS file that imports everything
 // that gets compiled into app.css
 
-// Import order:
-// 1.  Encoding
-// 2.  Variables
-// 3.  Fonts
-// 4.  Foundation
-// 5.  Helpers
-//
-// SMACSS Architecture
-// 6.  Base
-// 7.  Layout
-// 8.  Modules
-// 9.  State
-// 10. Theme
 
 //
 // 1. Encoding
@@ -24,7 +11,7 @@
 @charset 'UTF-8';
 
 //
-// 2. Variables
+// 2. Variables (before foundation)
 // --------------------------------------------------
 
 // Import our global variables first so we can use
@@ -36,7 +23,7 @@
 @import 'base/fonts';
 
 //
-// 4. Foundation
+// 3. Foundation
 // --------------------------------------------------
 // Source: http://foundation.zurb.com/docs/
 // Notes:
@@ -54,7 +41,12 @@
 //
 // 5. Mixins
 // --------------------------------------------------
-// @import 'mixins/';
+ @import 'mixins/font-size';
+
+ //
+ // 5. Global
+ // --------------------------------------------------
+// @import 'global/';
 
 //
 // 6. Layouts
