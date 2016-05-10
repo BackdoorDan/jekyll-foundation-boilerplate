@@ -64,7 +64,7 @@ javascript:
     # - "assets/vendor/foundation-sites/js/foundation.tooltip.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.box.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.motion.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.nest.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js"
@@ -74,6 +74,8 @@ javascript:
     # Paths to your own project code are here
     # All the files in this list and in the js dir are concatenated into all.js
     - "!assets/js/all.js"
+    # data file from _site directory because it needs to be processed by jekyll
+    - "_site/data.js"
     - "assets/js/*.js"
 
 jekyll:

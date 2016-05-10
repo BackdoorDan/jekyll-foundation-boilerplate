@@ -32,13 +32,8 @@
 
 // Global Config Variables
 @import 'base/config';
-
-//
-// 3. Fonts
-// --------------------------------------------------
-
-// Open Sans
-// @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import 'base/colors';
+@import 'base/fonts';
 
 //
 // 4. Foundation
@@ -55,41 +50,23 @@
 // Import all of Foundation
 @import 'foundation/foundation';
 
-//
-// 5. Helpers
-// --------------------------------------------------
-
-// Functions
-@import 'helpers/functions';
-
-// Mixins
-@import 'helpers/mixins';
 
 //
-// 6. Base
+// 5. Mixins
 // --------------------------------------------------
-@import 'base/headings';
-@import 'base/links';
+// @import 'mixins/';
 
 //
-// 7. Layout
+// 6. Layouts
 // --------------------------------------------------
-@import 'layouts/l-default';
-@import 'layouts/l-index';
-@import 'layouts/l-page';
-@import 'layouts/l-post';
+// @import 'layouts/';
 
 //
-// 8. Modules
+// 7. Pages
 // --------------------------------------------------
-@import 'modules/m-your-module';
+// @import 'pages/';
 
 //
-// 9. State
+// 8. Components
 // --------------------------------------------------
-@import 'states/s-your-module';
-
-//
-// 10. Theme
-// --------------------------------------------------
-@import 'themes/theme';
+// @import 'components/';
