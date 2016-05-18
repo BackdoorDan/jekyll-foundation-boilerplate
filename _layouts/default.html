@@ -2,8 +2,16 @@
 layout: compress
 ---
 
-{% include header.html %}
+<!doctype html>
+<html class="no-js" lang="{{ site.language}} ">
+<head>
+  {% include meta.html %}
+</head>
 
-{{ content }}
+<body>
 
-{% include footer.html %}
+  {{ content }}
+
+  {% include before-body-close.html %}
+</body>
+</html>
