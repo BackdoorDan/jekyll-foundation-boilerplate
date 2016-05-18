@@ -46,19 +46,19 @@
  //
  // 5. Global
  // --------------------------------------------------
-// @import 'global/';
+@import 'global/typography';
 
 //
 // 6. Layouts
 // --------------------------------------------------
-// @import 'layouts/';
+@import 'layouts/home';
 
 //
 // 7. Pages
 // --------------------------------------------------
-// @import 'pages/';
+@import 'pages/home';
 
 //
 // 8. Components
 // --------------------------------------------------
-// @import 'components/';
+@import 'components/nav';
